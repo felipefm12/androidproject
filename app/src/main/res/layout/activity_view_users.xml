@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              xmlns:app = "http://schemas.android.com/apk/res-auto"
+              xmlns:tools = "http://schemas.android.com/tools"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/img_8"
+              tools:context = ".ViewUsers" >
+
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/Toolbar_distridos"
+    android:layout_width = "match_parent"
+    android:layout_height = "?attr/actionBarSize"
+    android:background="@color/colorPrimaryDark"
+    app:titleTextColor="@color/white"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/Theme.AppCompat.Light"
+    />
+
+<TextView
+    android:id = "@+id/textView13"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:gravity="center_horizontal|center_vertical"
+    android:textColor="@color/white"
+    android:text = "@string/distritos" />
+
+
+  <GridView
+      android:id="@+id/ListaDistridos"
+      android:numColumns="2"
+      android:layout_width = "match_parent"
+      android:layout_height = "match_parent" />
+
+
+
+</LinearLayout >
+
+

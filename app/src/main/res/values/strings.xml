@@ -1,0 +1,18 @@
+<resources>
+    <string name="URL">https://apicombislogin.onrender.com/717ab3b1503b549a393b14f0740a1312c90c29da/api</string>
+    <string name="app_name">ProjectEnd</string>
+    <string name="comprobar">Comprobar</string>
+    <string name="correo">Correo</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="register">Registrarse</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="listausers">Lista Usuarios</string>
+    <string name="admin">Admin</string>
+    <string name="usuarios">USUARIOS</string>
+    <string name="distritos">Distritos</string>
+    <string name="nombre1">Nombre</string>
+    <string name="title_activity_view_rutas">ViewRutas</string>
+</resources>
